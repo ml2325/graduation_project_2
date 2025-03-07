@@ -17,6 +17,7 @@ This project analyzes e-commerce data to uncover insights into customer behavior
 2. **Data Merging**: Data from different sheets is merged into a single DataFrame for comprehensive analysis.
 3. **Data Cleaning**: Missing values are handled, and unnecessary rows are dropped.
 4. **Visualization**: Visualizations are created to analyze customer distribution by city and gender.
+5. **Customer Segmentation:**:Supervised learning is used to segment customers into clusters based on gender, city, and transaction status.
 
 ---
 
@@ -25,6 +26,7 @@ This project analyzes e-commerce data to uncover insights into customer behavior
 - **NumPy**: For numerical operations.
 - **Matplotlib**: For creating static visualizations.
 - **Seaborn**: For enhanced data visualization.
+- **Scikit-learn**: For customer segmentation using clustering.
 
 ---
 
@@ -42,7 +44,10 @@ This project analyzes e-commerce data to uncover insights into customer behavior
 -  **Customer Retention and Loyalty:**: Patterns in customer coupon usage frequency and
 trends over time. .
 -  **Heatmap:**: for city-wise or branch-wise coupon burn rates.
+-  **Customer Segmentation**: Customers were segmented into clusters based on gender, city, and transaction status, with recommendations for personalized coupon offers.
+
 ---
+
 
 
 
